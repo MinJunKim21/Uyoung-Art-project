@@ -15,7 +15,6 @@ export default function Home() {
         heading="Uyoung Art"
         message="After all, every piece of art is my inner shadow."
       />
-      <Navbar />
     </div>
   );
 }
