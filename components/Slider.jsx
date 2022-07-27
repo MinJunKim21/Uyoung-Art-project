@@ -25,11 +25,7 @@ function Slider({ slides }) {
           return (
             <div
               key={index}
-              className={
-                index === current
-                  ? 'opacity-[1] ease-in duration-1000'
-                  : 'opacity-0'
-              }
+              className={index === current ? '  duration-300' : 'opacity-0'}
             >
               <FaArrowCircleLeft
                 className="absolute text-2xl lg:text-3xl bottom-8 right-[52%] text-white/70 cursor-pointer select-none z-[2] opacity-50 hover:opacity-100"
