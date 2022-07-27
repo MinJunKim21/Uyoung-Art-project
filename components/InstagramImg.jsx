@@ -5,7 +5,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 function InstagramImg({ socialImg }) {
   return (
-    <div className="relative hover:scale-105">
+    <div className="relative hover:scale-[103%]">
       <Image
         src={socialImg}
         alt="/"
