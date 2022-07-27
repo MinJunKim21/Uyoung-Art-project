@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Slider from '../components/Slider';
+import { SliderData } from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
         heading="Uyoung Art"
         message="After all, every piece of art is my inner shadow."
       />
+      <Slider slides={SliderData} />
     </div>
   );
 }
