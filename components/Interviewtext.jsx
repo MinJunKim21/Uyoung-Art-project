@@ -15,7 +15,7 @@ function interviewtext() {
       </div>
       <div className="col-span-1">
         <Image
-          src={'/uyoung_source/유영_공존.jpg'}
+          src={'/uyoung_source/interviewimg1.jpg'}
           layout="responsive"
           height={80}
           width={100}
@@ -62,7 +62,7 @@ function interviewtext() {
       </div>
       <div className="col-span-1">
         <Image
-          src={'/uyoung_source/들풀_작품이미지.jpg'}
+          src={'/uyoung_source/interviewimg3.jpg'}
           layout="responsive"
           height={80}
           width={100}
