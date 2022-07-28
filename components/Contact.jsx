@@ -6,9 +6,7 @@ function Contact() {
     <div className="max-w-[1240px] m-auto p-4 h-screen">
       <h1 className="flex items-center mt-10 mb-5 font-semibold justify-center p-4">
         <FaInstagram className="mr-2 text-3xl" />
-        <span className="text-xl">
-          @uyoung_oo 으로 연락하거나 아래의 폼 작성
-        </span>
+        <span className="text-xl">@uyoung_oo 또는 아래의 폼 작성</span>
       </h1>
       <form className="max-w-[600px] m-auto">
         <div className="grid grid-cols-2 gap-2">
