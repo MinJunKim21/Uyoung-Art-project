@@ -10,3 +10,12 @@ html {
 .custom-img {
   background-image: url(../public/uyoung_source/backgroundimg.jpg);
 }
+
+@layer components {
+  .interviewQ {
+    @apply font-semibold px-10;
+  }
+  .interviewA {
+    @apply pt-5 px-10;
+  }
+}
