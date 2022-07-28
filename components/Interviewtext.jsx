@@ -3,7 +3,7 @@ import React from 'react';
 
 function interviewtext() {
   return (
-    <div className="grid grid-cols-1 gap-y-20 md:grid-cols-3 py-20 px-10 justify-center items-center max-w-[1240px] mx-auto">
+    <div className="grid grid-cols-1 gap-y-20 md:grid-cols-3 py-20 px-8 md:px-10 justify-center items-center max-w-[1240px] mx-auto">
       <div className="col-span-2">
         <h3 className="interviewQ">
           Q. 작품을 통해 말하고자 하는 것은 무엇인가요?

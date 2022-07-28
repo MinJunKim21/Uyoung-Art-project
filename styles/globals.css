@@ -13,9 +13,9 @@ html {
 
 @layer components {
   .interviewQ {
-    @apply font-semibold px-10;
+    @apply font-semibold md:px-10;
   }
   .interviewA {
-    @apply pt-5 px-10;
+    @apply pt-5 md:px-10;
   }
 }

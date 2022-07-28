@@ -1,14 +1,20 @@
 import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
+import Link from 'next/link';
 
 function Contact() {
   return (
     <div className="max-w-[1240px] m-auto p-4 h-screen">
-      <h1 className="flex items-center mt-10 mb-5 font-semibold justify-center p-4">
-        <FaInstagram className="mr-2 text-3xl" />
-        <span className="text-xl">@uyoung_oo 또는 아래의 폼 작성</span>
+      <Link href={'https://instagram.com/uyoung_oo?igshid=YmMyMTA2M2Y='}>
+        <div className="flex items-center text-lg justify-center group cursor-pointer pt-10 border-b-2 max-w-[600px] mx-auto pb-10">
+          <FaInstagram className="mr-2 text-2xl" />
+          <span className="font-semibold">Go to Instagram</span>
+        </div>
+      </Link>
+      <h1 className="flex items-center pt-10 mb-5 font-semibold justify-center p-4   ">
+        <span className="text-xl">Contact</span>
       </h1>
-      <form className="max-w-[600px] m-auto">
+      <form className="max-w-[600px] mx-auto">
         <div className="grid grid-cols-2 gap-2">
           <input
             className="border shadow-lg p-3"

@@ -2,10 +2,10 @@ import React from 'react';
 
 function Interviewhero() {
   return (
-    <div className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img ">
+    <div className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img  ">
       {/* overlay */}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2]" />
-      <div className="p-20 text-white z-[2] mt-[-3rem]">
+      <div className="max-w-[1240px] p-8 md:p-20 text-white z-[2] mt-[-3rem]">
         <h2 className="text-4xl font-normal ">작가의 말</h2>
         <p className="pt-10 text-lg font-thin">
           <span>출산과 육아 등의 이유로 작품활동의 공백기가 길었습니다.</span>

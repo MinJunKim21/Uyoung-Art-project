@@ -12,7 +12,7 @@ function contact() {
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2]" />
           <div className="p-5 text-white z-[2] mt-[-3rem]">
             <h2 className="text-5xl font-semibold">Contact</h2>
-            <p className="pt-10 text-xl">
+            <p className="pt-10 text-lg md:text-xl font-medium">
               작품 구입 및 렌탈은 오픈갤러리를 통해서 가능합니다.
             </p>
             <Link href="https://www.opengallery.co.kr/search/?sq=%EC%9C%A0%EC%98%81">
