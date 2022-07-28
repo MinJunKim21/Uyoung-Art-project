@@ -26,7 +26,7 @@ function interviewtext() {
 
       <div className="col-span-1">
         <Image
-          src={'/uyoung_source/가로수길_유영_작품이미지.jpeg'}
+          src={'/uyoung_source/interviewimg2.jpeg'}
           layout="responsive"
           height={80}
           width={100}
