@@ -2,11 +2,14 @@
   "name": "uyoung_art_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://minjunkim21.github.io/Uyoung-Art-project/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "next": "12.2.3",
